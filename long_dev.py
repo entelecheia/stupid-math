@@ -1,4 +1,16 @@
 def stupid_long_div(dividend, divisor):
+    """
+    Performs long division on the given `dividend` and `divisor` values, returning the quotient and remainder.
+
+    This function implements a step-by-step long division algorithm, printing out the intermediate steps of the division process. It is intended for educational purposes and should not be used for production code that requires efficient division operations.
+
+    Args:
+        dividend (int): The number to be divided.
+        divisor (int): The number to divide by.
+
+    Returns:
+        Tuple[int, int]: The quotient and remainder of the division.
+    """
     if divisor == 0:
         return "Error: Division by zero"
 
